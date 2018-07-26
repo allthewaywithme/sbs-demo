@@ -41,6 +41,12 @@ public class PageController {
         return "ee";
     }
 
+    @RequestMapping("/video")
+    public String video(){
+        return "video";
+    }
+
+
 
 
 }
